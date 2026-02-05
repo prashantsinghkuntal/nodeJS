@@ -18,4 +18,17 @@ function add(a, b) {
   console.log(math.add(5, 3)); // 8
 
 
-Example: ES Module
+//Example: ES Module
+
+// math.mjs (ES Module)
+export function add(a, b) {
+  return a + b;
+}
+
+export function subtract(a, b) {
+  return a - b;
+}
+
+// app.mjs (ES Module)
+import { add, subtract } from './math.mjs';
+console.log(add(5, 3)); // 8
