@@ -16,3 +16,6 @@ function add(a, b) {
   // app.js (CommonJS)
   const math = require('./math');
   console.log(math.add(5, 3)); // 8
+
+
+Example: ES Module
