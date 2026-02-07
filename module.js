@@ -30,5 +30,9 @@ export function subtract(a, b) {
 }
 
 // app.mjs (ES Module)
+
+
+// logger.js
+
 import { add, subtract } from './math.mjs';
 console.log(add(5, 3)); // 8
