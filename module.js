@@ -100,3 +100,23 @@ export function subtract(a, b) {
 // app.mjs (ES Module)
 import { add, subtract } from './math.mjs';
 console.log(add(5, 3)); // 8
+
+// Multiple named exports
+export function sayHello() {
+  console.log('Hello');
+}
+
+export function sayGoodbye() {
+  console.log('Goodbye');
+}
+
+// Alternative: export list at the end
+function add(a, b) {
+  return a + b;
+}
+
+function subtract(a, b) {
+  return a - b;
+}
+
+export { add, subtract };
