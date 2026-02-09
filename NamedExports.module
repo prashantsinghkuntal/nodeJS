@@ -1,1 +1,5 @@
 Importing Named Exports
+// Import specific named exports
+import { sayHello, sayGoodbye } from './greetings.mjs';
+sayHello(); // Hello
+
