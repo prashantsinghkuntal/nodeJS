@@ -3,3 +3,7 @@ Importing Named Exports
 import { sayHello, sayGoodbye } from './greetings.mjs';
 sayHello(); // Hello
 
+// Rename imports to avoid naming conflicts
+import { add as sum, subtract as minus } from './math.mjs';
+console.log(sum(5, 3)); // 8
+
