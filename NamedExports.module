@@ -12,3 +12,9 @@ import * as math from './math.mjs';
 console.log(math.add(7, 4)); // 11
 
 Importing Default Exports
+// Import the default export
+import mainFunction from './main.mjs';
+mainFunction();
+
+
+
