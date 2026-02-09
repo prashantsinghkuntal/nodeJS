@@ -120,3 +120,5 @@ function subtract(a, b) {
 }
 
 export { add, subtract };
+
+//// Import both default and named exports
