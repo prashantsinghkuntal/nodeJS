@@ -19,3 +19,6 @@ mainFunction();
 
 
 // You can name the default import anything you want
+import anyNameYouWant from './main.mjs';
+anyNameYouWant();
+Importing Both Default
