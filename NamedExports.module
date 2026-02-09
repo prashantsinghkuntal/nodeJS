@@ -7,3 +7,6 @@ sayHello(); // Hello
 import { add as sum, subtract as minus } from './math.mjs';
 console.log(sum(5, 3)); // 8
 
+// Import all named exports as an object
+import * as math from './math.mjs';
+console.log(math.add(7, 4)); // 11
