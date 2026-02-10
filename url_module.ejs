@@ -3,3 +3,11 @@ const url = require('url');
 
 // Using the modern URL class (WHATWG API)
 const { URL } = require('url');
+
+const crypto = require('crypto');
+
+// Create a SHA-256 hash of a string
+const hash = crypto.createHash('sha256')
+  .update('Hello, Node.js!')
+  .digest('hex');
+console.log('SHA-256 Hash:', hash);
