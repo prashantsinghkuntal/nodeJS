@@ -127,3 +127,10 @@ export { add, subtract };
 import main, { VERSION } from './main.mjs';
 console.log(VERSION); // 1.0.0
 main(); // Main function
+
+
+// Using the legacy API
+const url = require('url');
+
+// Using the modern URL class (WHATWG API)
+const { URL } = require('url');
