@@ -134,3 +134,20 @@ const url = require('url');
 
 // Using the modern URL class (WHATWG API)
 const { URL } = require('url');
+
+
+
+
+// math.js (CommonJS)
+function add(a, b) {
+    return a + b;
+  }
+  
+  function subtract(a, b) {
+    return a - b;
+  }
+  
+  module.exports = {
+    add,
+    subtract
+  };
