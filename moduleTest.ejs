@@ -5,3 +5,9 @@ console.log('Platform:', process.platform);
 console.log('Node.js version:', process.version);
 // Create a hash object
 const hash = crypto.createHash('sha256');
+const fs = require('fs');
+
+// Create a readable stream from a file
+const readableStream = fs.createReadStream('input.txt', 'utf8');
+// Create a writable stream to a file
+const writableStream = fs.createWriteStream('output.txt');
