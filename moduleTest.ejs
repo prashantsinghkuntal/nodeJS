@@ -19,3 +19,8 @@ readableStream.pipe(writableStream);
 writableStream.on('finish', () => {
   console.log('File copy completed!');
 });
+
+readableStream.on('error', (err) => {
+  console.error('Error reading file:', err);
+});
+
