@@ -1,0 +1,5 @@
+// Basic logging
+console.log('Info message');
+console.error('Error message');
+console.warn('Warning message');
+console.debug('Debug message');
