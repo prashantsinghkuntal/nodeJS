@@ -17,3 +17,14 @@ const server = http.createServer((req , res) =>{
     console.log("my port is runnning on :3000")
 })
 
+const express = require('express');
+const app = express();
+const port = 8080;
+
+app.get('/', (req, res) => {
+  res.send('Hello World from Express.js!');
+});
+
+app.listen(port, () => {
+  console.log(`Express server running at http://localhost:${port}`);
+});
