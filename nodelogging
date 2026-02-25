@@ -3,3 +3,8 @@ console.log('Info message');
 console.error('Error message');
 console.warn('Warning message');
 console.debug('Debug message');
+
+
+// Log objects
+const user = { id: 1, name: 'John', roles: ['admin', 'user'] };
+console.log('User object:', user);
