@@ -17,3 +17,15 @@ console.table([
   { name: 'Jane', age: 25, role: 'user' },
   { name: 'Bob', age: 40, role: 'guest' }
 ]);
+
+
+
+
+
+// Timing operations
+console.time('operation');
+// Perform some operations...
+for (let i = 0; i < 1000000; i++) {
+  // Do something
+}
+console.timeEnd('operation'); // Outputs: operation: 4.269ms
