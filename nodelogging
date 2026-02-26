@@ -8,3 +8,12 @@ console.debug('Debug message');
 // Log objects
 const user = { id: 1, name: 'John', roles: ['admin', 'user'] };
 console.log('User object:', user);
+
+
+
+// Table output for arrays or objects
+console.table([
+  { name: 'John', age: 30, role: 'admin' },
+  { name: 'Jane', age: 25, role: 'user' },
+  { name: 'Bob', age: 40, role: 'guest' }
+]);
